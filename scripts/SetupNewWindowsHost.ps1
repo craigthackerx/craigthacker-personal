@@ -30,6 +30,7 @@ dotnet-sdk `
 discord `
 docker-desktop `
 gh `
+geforce-experience `
 github-desktop `
 jetbrainstoolbox `
 keybase `
@@ -37,6 +38,7 @@ microsoft-office-deployment `
 openjdk `
 openssl `
 powershell-core `
+royalts-v6 `
 steam `
 windscribe `
 wowup
