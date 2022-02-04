@@ -19,7 +19,7 @@ jobs:
       PIPELINE_PLAN: "pipeline.plan"
       TERRAFORM_PATH: "dns/craigthackerdotcloud"
       SHORTHAND_PROJECT_NAME: "ctdo"
-      SHORTHAND_ENVIRONMENT: "${{ GITHUB_ENV }}"
+      SHORTHAND_ENVIRONMENT: "mvp"
       SHORTHAND_LOCATION: "uks"
       TERRAFORM_COMPLIANCE_POLICY: "https://github.com/craigthackerx/azure-terraform-compliance-naming-convention.git//?ref=main"
 
