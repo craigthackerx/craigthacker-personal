@@ -3,9 +3,9 @@ resource "digitalocean_domain" "default" {
 }
 
 # Add an A record to the domain for www.example.com.
-resource "digitalocean_record" "www" {
+resource "digitalocean_record" "dev" {
   domain = digitalocean_domain.default.id
-  type   = "A"
+  type   = "CNAME"
   name   = "www"
-  value  = "192.168.1.1"
+  value  = "craigthacker.dev"
 }
