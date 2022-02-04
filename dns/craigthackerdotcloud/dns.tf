@@ -12,6 +12,6 @@ resource "digitalocean_record" "dev" {
 resource "digitalocean_record" "a" {
   domain = digitalocean_domain.default.id
   type   = "A"
-  name   = "www"
+  name   = "@"
   value  = "185.199.111.153"
 }
