@@ -6,7 +6,7 @@ resource "digitalocean_record" "dev" {
   domain = digitalocean_domain.default.id
   type   = "CNAME"
   name   = "www"
-  value  = "craigthacker.dev"
+  value  = "craigthacker.dev."
 }
 
 resource "digitalocean_record" "a" {
