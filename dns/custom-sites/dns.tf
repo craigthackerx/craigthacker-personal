@@ -50,7 +50,7 @@ resource "digitalocean_record" "libre_keybase_txt" {
 
 resource "digitalocean_record" "libre_gh_txt" {
   domain = digitalocean_domain.libre_do.id
-  name   = "TXT"
-  type   = "_github-pages-challenge-libre-devops"
+  type   = "TXT"
+  name   = "_github-pages-challenge-libre-devops"
   value  = "c87317bdb28f83d7014075d686ffe3"
 }
