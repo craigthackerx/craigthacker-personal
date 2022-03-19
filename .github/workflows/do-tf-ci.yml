@@ -17,7 +17,7 @@ jobs:
     environment: mvp
     env:
       PIPELINE_PLAN: "pipeline.plan"
-      TERRAFORM_PATH: "dns/craigthackerdotcloud"
+      TERRAFORM_PATH: "dns/custom-sites"
       SHORTHAND_PROJECT_NAME: "ctdo"
       SHORTHAND_ENVIRONMENT: "mvp"
       SHORTHAND_LOCATION: "uks"

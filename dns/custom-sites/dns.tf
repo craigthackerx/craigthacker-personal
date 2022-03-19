@@ -47,3 +47,10 @@ resource "digitalocean_record" "libre_keybase_txt" {
   name   = "@"
   value  = "keybase-site-verification=LWdswVMuFo5osmODfBULUZkUGDi9pZZMWc8xnwJJy8g"
 }
+
+resource "digitalocean_record" "libre_gh_txt" {
+  domain = digitalocean_domain.libre_do.id
+  name   = "TXT"
+  type   = "_github-pages-challenge-craigthackerx"
+  value  = "ef242b54acc20c61c648fee800ad81"
+}
