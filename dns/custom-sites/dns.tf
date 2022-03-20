@@ -52,8 +52,9 @@ resource "digitalocean_record" "libre_dev_cname" {
   domain = digitalocean_domain.libre_do.id
   type   = "CNAME"
   name   = "www"
-  value  = "libredevops.org."
+  value  = "libre-devops.github.io"
 }
+
 
 resource "digitalocean_record" "libre_do_a_1" {
   domain = digitalocean_domain.libre_do.id
