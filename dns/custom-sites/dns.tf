@@ -52,7 +52,7 @@ resource "digitalocean_record" "libre_dev_cname" {
   domain = digitalocean_domain.libre_do.id
   type   = "CNAME"
   name   = "www"
-  value  = "craigthacker.dev."
+  value  = "libredevops.org."
 }
 
 resource "digitalocean_record" "libre_do_a_1" {
