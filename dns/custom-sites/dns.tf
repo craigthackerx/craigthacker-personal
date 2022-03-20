@@ -9,7 +9,28 @@ resource "digitalocean_record" "dev" {
   value  = "craigthacker.dev."
 }
 
-resource "digitalocean_record" "a" {
+resource "digitalocean_record" "a_1" {
+  domain = digitalocean_domain.default.id
+  type   = "A"
+  name   = "@"
+  value  = "185.199.108.153"
+}
+
+resource "digitalocean_record" "a_2" {
+  domain = digitalocean_domain.default.id
+  type   = "A"
+  name   = "@"
+  value  = "185.199.109.153"
+}
+
+resource "digitalocean_record" "a_3" {
+  domain = digitalocean_domain.default.id
+  type   = "A"
+  name   = "@"
+  value  = "185.199.110.153"
+}
+
+resource "digitalocean_record" "a_4" {
   domain = digitalocean_domain.default.id
   type   = "A"
   name   = "@"
@@ -34,7 +55,28 @@ resource "digitalocean_record" "libre_dev_cname" {
   value  = "craigthacker.dev."
 }
 
-resource "digitalocean_record" "libre_do_a" {
+resource "digitalocean_record" "libre_do_a_1" {
+  domain = digitalocean_domain.libre_do.id
+  type   = "A"
+  name   = "@"
+  value  = "185.199.108.153"
+}
+
+resource "digitalocean_record" "libre_do_a_2" {
+  domain = digitalocean_domain.libre_do.id
+  type   = "A"
+  name   = "@"
+  value  = "185.199.109.153"
+}
+
+resource "digitalocean_record" "libre_do_a_3" {
+  domain = digitalocean_domain.libre_do.id
+  type   = "A"
+  name   = "@"
+  value  = "185.199.110.153"
+}
+
+resource "digitalocean_record" "libre_do_a_4" {
   domain = digitalocean_domain.libre_do.id
   type   = "A"
   name   = "@"
