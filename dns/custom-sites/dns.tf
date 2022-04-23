@@ -97,3 +97,11 @@ resource "digitalocean_record" "libre_gh_txt" {
   name   = "_github-pages-challenge-libre-devops.libredevops.org"
   value  = "c87317bdb28f83d7014075d686ffe3"
 }
+
+resource "digitalocean_record" "libre_az_txt" {
+  domain = digitalocean_domain.libre_do.id
+  type   = "TXT"
+  name   = "@"
+  value  = "MS=ms58102677"
+  ttl    = 3600
+}
