@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# curl https://raw.githubusercontent.com/craigthackerx/craigthackerx-personal/dev/scripts/setup.sh | bash -s -- 'Craig Thacker' 'craigthackerx@gmail.com' >> ~/.bashrc && source ~/.bashrc
+# curl https://raw.githubusercontent.com/craigthackerx/craigthackerx-personal/dev/scripts/setup-bash.sh | bash -s -- 'Craig Thacker' 'craigthackerx@gmail.com' >> ~/.bashrc && source ~/.bashrc
 full_name="${1:-Craig Thacker}"
 email_address="${2:-craigthackerx@gmail.com}"
 
