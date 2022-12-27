@@ -108,7 +108,7 @@ SilverDragon_RangeExtender: disabled
 Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
 TidyPlates: disabled
-TidyPlates_ThreatPlates: disabled
+TidyPlates_ThreatPlates: enabled
 Binder: enabled
 EasyDeleteConfirm: disabled
 HandyNotes_Draenor: disabled
